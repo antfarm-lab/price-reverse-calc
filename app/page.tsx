@@ -76,7 +76,43 @@ export default function Home() {
         >
           リセット
         </button>
+                <div className="mt-6 border-t pt-4">
+          <p className="mb-2 text-sm font-bold text-gray-700">
+            関連ツール
+          </p>
+          <ul className="space-y-2 text-sm text-blue-600 underline">
+            <li>
+              <a href="https://calc-tools.vercel.app/">
+                メルカリ利益計算ツール
+              </a>
+            </li>
+            <li>
+              <a href="https://shipping-calc.vercel.app/">
+                フリマ送料計算ツール
+              </a>
+            </li>
+            <li>
+              <a href="https://fee-calc.vercel.app/">
+                販売手数料計算ツール
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+      <section className="mt-10 rounded-xl border bg-white p-5">
+  <h2 className="mb-3 text-lg font-bold">ほかの便利ツール</h2>
+  <div className="grid gap-2 text-sm">
+    <a className="text-blue-600 underline" href="https://calc-tools-mauve.vercel.app/">
+      利益計算ツール
+    </a>
+    <a className="text-blue-600 underline" href="https://shipping-calc-olive.vercel.app/">
+      送料計算ツール
+    </a>
+    <a className="text-blue-600 underline" href="https://fee-calc-seven.vercel.app/">
+      手数料計算ツール
+    </a>
+  </div>
+</section>
     </main>
   );
 }
