@@ -99,6 +99,25 @@ export default function Home() {
           </ul>
         </div>
       </div>
+      <section className="mt-10 bg-white rounded-xl p-6">
+  <h2 className="text-xl font-bold mb-4">
+    販売価格を逆算することが重要な理由
+  </h2>
+
+  <p className="mb-3">
+    フリマアプリで利益を確保するには、先に欲しい利益額を決めてから
+    販売価格を設定することが重要です。
+  </p>
+
+  <p className="mb-3">
+    手数料や送料を考慮せず価格設定すると、
+    売れたあとに利益がほとんど残らないことがあります。
+  </p>
+
+  <p>
+    この逆算ツールでは目標利益から必要な販売価格を自動計算できます。
+  </p>
+</section>
       <section className="mt-10 rounded-xl border bg-white p-5">
   <h2 className="mb-3 text-lg font-bold">ほかの便利ツール</h2>
   <div className="grid gap-2 text-sm">
