@@ -122,13 +122,13 @@ export default function Home() {
   <h2 className="mb-3 text-lg font-bold">ほかの便利ツール</h2>
   <div className="grid gap-2 text-sm">
     <a className="text-blue-600 underline" href="https://calc-tools-mauve.vercel.app/">
-      利益計算ツール
+      メルカリ・Amazon・ラクマ利益計算ツール
     </a>
     <a className="text-blue-600 underline" href="https://shipping-calc-olive.vercel.app/">
-      送料計算ツール
+      メルカリ送料計算ツール
     </a>
     <a className="text-blue-600 underline" href="https://fee-calc-seven.vercel.app/">
-      手数料計算ツール
+      メルカリ販売手数料計算ツール
     </a>
   </div>
 </section>
