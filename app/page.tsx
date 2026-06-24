@@ -132,6 +132,9 @@ export default function Home() {
     </a>
   </div>
 </section>
+<p className="mt-6 text-xs text-gray-500 text-center">
+  このサイトはメルカリ・Amazon・ラクマ・せどり・副業に役立つ無料計算ツールを公開しています。
+</p>
 <footer className="mt-8 text-center text-sm text-gray-500">
   <a className="underline" href="/privacy">
     プライバシーポリシー
