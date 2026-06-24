@@ -13,9 +13,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "逆算価格計算ツール｜目標利益から販売価格を自動計算",
-  description:
-    "欲しい利益額から必要な販売価格を逆算できる無料ツール。メルカリ・ラクマ・物販販売の価格設定に便利です。",
+ title: "販売価格逆算ツール【無料】利益から売値を計算",
+description:
+  "目標利益から必要な販売価格を無料で自動計算。仕入れ価格・送料・手数料を入力するだけで、メルカリ販売やAmazonせどりの売値を確認できます。",
+keywords: [
+  "販売価格逆算",
+  "売値計算",
+  "目標利益",
+  "メルカリ販売",
+  "Amazonせどり",
+  "利益計算",
+],
   verification: {
     google: "miCxwdbgRhGe66W37cjiBB0MFNO1tB2WJxh9Dm_zTjc",
   },
