@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gray-100 px-4 py-10 text-gray-900">
-      <div className="mx-auto max-w-xl rounded-2xl bg-white p-6 shadow">
+     <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow p-6">
         <h1 className="mb-2 text-2xl font-bold">
           メルカリ利益逆算ツール
         </h1>
