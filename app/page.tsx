@@ -146,6 +146,34 @@ export default function Home() {
   <p>
     この逆算ツールでは目標利益から必要な販売価格を自動計算できます。
   </p>
+  
+</section>
+<section className="mt-10 bg-white rounded-xl p-6">
+  <h2 className="text-xl font-bold mb-4">
+    販売価格を逆算する具体例
+  </h2>
+
+  <p className="mb-3">
+    たとえば、仕入れ値1,000円、送料750円の商品で、
+    500円の利益を残したい場合を考えます。
+  </p>
+
+  <ul className="list-disc pl-6 space-y-1">
+    <li>目標利益：500円</li>
+    <li>仕入れ値：1,000円</li>
+    <li>送料：750円</li>
+    <li>メルカリ販売手数料：販売価格の10%</li>
+  </ul>
+
+  <p className="mt-3">
+    このツールでは販売手数料10%も考慮して、
+    目標利益を確保するために必要な販売価格を自動で逆算します。
+  </p>
+
+  <p className="mt-3 text-sm text-gray-600">
+    実際の出品では、値下げや追加費用が発生する可能性もあるため、
+    計算結果を最低ラインの目安として利用してください。
+  </p>
 </section>
      <section className="mt-10 rounded-xl border bg-white p-5">
  <h2 className="text-xl font-bold mb-3">
